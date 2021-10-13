@@ -1,0 +1,17 @@
+#testimonials-header{
+    background-image: url('../../img/banner1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.said-text{
+    background: $primary-color;
+}
+.said-text i{
+    font-size: 26px;
+    color: $primary-color;
+    margin-top: 2px;
+}

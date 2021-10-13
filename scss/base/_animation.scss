@@ -1,0 +1,52 @@
+.subtitle{
+    animation: MOVEINLEFT 1s;
+    position: relative;
+}
+
+.title{
+    animation: MOVEINRIGHT 1s;
+    position: relative;
+    animation-fill-mode: backwards;
+}
+
+.slide-btn{
+    animation: MOVEINBOTTOM 1s;
+    position: relative;
+    animation-fill-mode: backwards;
+}
+
+
+
+
+@keyframes MOVEINLEFT{
+   0% {opacity: 0;
+       left: -50%;
+    } 
+
+    100%{
+        opacity: 1;
+        left: 0%;
+    }
+}
+
+@keyframes MOVEINRIGHT{
+    0% {opacity: 0;
+        right: -50%;
+     } 
+ 
+     100%{
+         opacity: 1;
+         right: 0%;
+     }
+ }
+
+ @keyframes MOVEINBOTTOM{
+    0% {opacity: 0;
+        bottom: -50%;
+     } 
+ 
+     100%{
+         opacity: 1;
+         bottom: 0%;
+     }
+ }

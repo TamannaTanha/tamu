@@ -1,0 +1,185 @@
+
+#about-header{
+    background-image: url('../../img/banner1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    color: #fff!important;
+    font-weight: 700;
+}
+
+.about-pageslide1{
+    background-image: url('../../img/slide-page1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.about-pageslide2{
+    background-image: url('../../img/slide-page2.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.about-pageslide3{
+    background-image: url('../../img/slide-page3.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+#whoweare .about-pageslide1 h3,
+#whoweare .about-pageslide2 h3,
+#whoweare .about-pageslide3 h3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pageslide button{
+    margin-left: 24px;
+    z-index: 9999;
+}
+.pageslide .slick-next{
+    margin-right: 48px;
+}
+.pageslide .slick-next::before,
+.pageslide .slick-prev::before{
+    color: #000;
+    font-size: 44px;
+
+}
+.team-one{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-one-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-one:hover .team-one-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+.team-two{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-two-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-two:hover .team-two-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+.team-three{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-three-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-three:hover .team-three-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+.team-four{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-four-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-four:hover .team-four-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+.team-five{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-five-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-five:hover .team-five-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+.team-six{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-six-overlay{
+    position: absolute;
+    max-width: 262px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 65%;
+    left: 10;
+    transition: 350ms;
+}
+
+ .team-six:hover .team-six-overlay{
+    top: 0;
+    left: 10;
+    visibility: visible;
+}
+
+.teamslide .slick-dots li button::before{
+    font-size: 17px;
+    margin-top: 18px;
+}

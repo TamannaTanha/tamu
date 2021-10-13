@@ -1,0 +1,15 @@
+.btn-warning:hover {
+    color: $primary-color!important;
+    background-color: #252525!important;
+    border-color: #252525!important;
+}
+
+.btn-warning:focus {
+    color: $primary-color!important;
+    background-color: #252525!important;
+    border-color: #252525!important;
+    box-shadow: 0 0 0 0!important;
+}
+.btn-outline-warning:focus{
+    box-shadow: none!important;
+}

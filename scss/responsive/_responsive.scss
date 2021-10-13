@@ -1,0 +1,276 @@
+
+// FOR MAIN NAV ITEM RESPONSIVE
+
+@include submenu{
+    .item1:hover{
+        padding-bottom: 220px;
+        transition: 1s all;
+    }
+    .item2:hover{
+        padding-bottom: 120px;
+        transition: 1s all;
+    }
+    .item3:hover{
+        padding-bottom: 120px;
+        transition: 1s all;
+    }
+    .item4:hover{
+        padding-bottom: 200px;
+        transition: 1s all;
+    }
+}
+
+// FOR HOME PAGE RESPONSIVE
+
+@include large-device{
+    .portfolio-overlay{
+        width: 92.5%!important;
+    }
+}
+@media screen and (max-width: 992px){
+    .faq-sidebar .faq-blog-info a{
+        font-size: 13px;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -22px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -22.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: 52px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: 51.5px;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .portfolio-overlay a{
+        font-size: 15px;
+    }
+    .portfolio-overlay p{
+        font-size: 9px;
+    }
+    .portfolio-overlay{
+        width: 90.5%!important;
+    }
+
+    .faq-sidebar .faq-blog-info a{
+        font-size: 15px;
+    }
+
+    #projectsingle-slide .carousel-control-next{
+        right: -28px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -28.5px;
+    }
+
+    #solutions-building .carousel-control-next{
+        right: -29px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -29.5px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    #we-do .man-img{
+        max-height: 650px;
+    }
+    .faq-sidebar .faq-blog-info a{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .portfolio-filter label{
+        width: 100%;
+        padding: 0 8px!important;
+        font-size: 12px;
+    }
+    .portfolio-overlay{
+        width: 91%!important;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -22.5px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -22.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: -24px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -23.5px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .portfolio-overlay a{
+        font-size: 20px;
+    }
+    .portfolio-overlay p{
+        font-size: 12px;
+    }
+    .portfolio-overlay{
+        width: 95%!important;
+    }
+    #blog .blog-title h5{
+        font-size: 16px;
+    }
+    #slider1 .carousel-item img{
+        min-height: 300px;
+    }
+    .subtitle{
+        font-size: 1rem;
+        margin-top: 120px;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -18.5px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -18.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: -19px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -19.5px;
+    }
+
+}
+@media screen and (max-width: 420px){
+    .portfolio-overlay{
+        width: 94.5%!important;
+    }
+    .subtitle{
+        font-size: 1rem;
+        margin-top: 70px;
+    }
+
+    .teamslide .team-one,
+    .teamslide .team-two,
+    .teamslide .team-three,
+    .teamslide .team-four,
+    .teamslide .team-five,
+    .teamslide .team-six{
+        margin-left: 59px;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -13.5px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -13.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: -15px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -15.5px;
+    }
+}
+@media screen and (max-width: 380px){
+    .portfolio-overlay{
+        width: 94%!important;
+    }
+    .teamslide .team-one,
+    .teamslide .team-two,
+    .teamslide .team-three,
+    .teamslide .team-four,
+    .teamslide .team-five,
+    .teamslide .team-six{
+        margin-left: 48px;
+    }
+    .faq-sidebar .faq-blog-info a{
+        font-size: 12px;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -10.5px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -10.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: -12px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -11.5px;
+    }
+}
+@media screen and (max-width: 320px){
+    .portfolio-overlay{
+        width: 92.5%!important;
+    }
+    .teamslide .team-one,
+    .teamslide .team-two,
+    .teamslide .team-three,
+    .teamslide .team-four,
+    .teamslide .team-five,
+    .teamslide .team-six{
+        margin-left: 20px;
+    }
+    #projectsingle-slide .carousel-control-next{
+        right: -6.5px;
+    }
+    #projectsingle-slide .carousel-control-prev{
+        left: -6.5px;
+    }
+    #solutions-building .carousel-control-next{
+        right: -7px;
+    }
+    #solutions-building .carousel-control-prev{
+        left: -7.5px;
+    }
+}
+
+// FOR CAROUSEL TEXT
+
+@include large-device{
+    .subtitle{
+        font-size: 1.5rem;
+    }
+    .carousel-caption .display-4{
+        font-size: 2.5rem;
+    }
+}
+
+@include medium-device{
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    .carousel-caption .display-4{
+        font-size: 1.8rem;
+    }
+}
+
+@include samll-device{
+
+    .carousel-caption .display-4{
+        font-size: 1.4rem;
+    }
+}
+
+@include extra-samll-device{
+    .subtitle{
+        font-size: 1rem;
+        
+    }
+    .carousel-caption .display-4{
+        font-size: 1.2rem;
+    }
+}
+
+@include tiny-device{
+    .subtitle{
+        font-size: .9rem;
+        margin-top: -160px;
+    }
+    .carousel-caption .display-4{
+        font-size: 1.4rem;
+    }
+}

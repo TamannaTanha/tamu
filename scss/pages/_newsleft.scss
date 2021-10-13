@@ -1,0 +1,62 @@
+#newsleft-header{
+    background-image: url('../../img/banner1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#newsleft-blog h3 a:hover{
+    color: $primary-color!important;
+    transition: .3s all;
+}
+.post-meta a:hover{
+    color: $primary-color!important;
+}
+
+.post-quote{
+    border-left: 3px solid $primary-color!important;
+}
+.post-social-icon a i{
+    margin-left: 5px;
+    font-size: 12px;
+    width: 28px!important;
+    height: 26px!important;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+.post-social-icon a .face{
+    background: #41578A;
+}
+.post-social-icon a .twitter{
+    background: #64BAE2;
+}
+.post-social-icon a .google{
+    background: #C0343D;
+}
+.post-social-icon a .linkedin{
+    background: #3397B6;
+}
+.reply-btn:hover{
+    color: $primary-color!important;
+    transition: .3s all;
+}
+
+.news-form .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: $primary-color;
+    outline: 0;
+    box-shadow:  none;
+}
+
+.categories a:hover{
+    color: $primary-color!important;
+    transition: .3s all;
+}
+.archives a:hover{
+    color: $primary-color!important;
+    transition: .3s all;
+}

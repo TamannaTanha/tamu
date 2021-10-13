@@ -1,0 +1,48 @@
+
+
+.navbar{
+    background: #000;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-item .active{
+    color: $primary-color!important;
+}
+
+.nav-link:hover{
+    color : $primary-color!important;
+}
+.submenu{
+    display:none!important;
+    background-color: #000;
+}
+
+.nav-item:nth-child(2):hover .submenu {
+    display: block!important;
+    overflow: hidden;
+}
+
+.nav-item:nth-child(3):hover .submenu {
+    display: block!important;
+    overflow: hidden;
+}
+.nav-item:nth-child(4):hover .submenu {
+    display: block!important;
+    overflow: hidden;
+}
+
+.nav-item:nth-child(6):hover .submenu {
+    display: block!important;
+    overflow: hidden;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-dark .navbar-toggler{
+    border: 2px solid #fff;
+    background-color: $primary-color;
+}
+

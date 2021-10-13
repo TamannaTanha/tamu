@@ -1,0 +1,38 @@
+#faq-header{
+    background-image: url('../../img/banner1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#faq-accordion .card-header a{
+    color: #000;
+}
+
+#faq-accordion .card-header a:focus{
+    color: $primary-color;
+}
+#faq-accordion .card-header a[aria-expanded="true"]{
+    color: $primary-color;
+}
+
+  .faq-blog .vr{
+    color: $primary-color;
+    height: 22px;
+    width: 3px;
+    opacity: 1;
+}
+
+.faq-blog-img  img{
+    width: 90px;
+    height: 70px;
+}
+.faq-sidebar .faq-blog-info a{
+    transition: .2s all;
+    font-size: 13px;
+}
+.faq-sidebar .faq-blog-info a:hover{
+    color: $primary-color!important;
+}
+

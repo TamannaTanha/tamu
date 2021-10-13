@@ -1,0 +1,41 @@
+#servicessingle-header{
+    background-image: url('../../img/banner1.jpg');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.solutions-blog .vr{
+    color: $primary-color;
+    height: 22px;
+    width: 3px;
+    opacity: 1;
+}
+.solutions-widget-bg{
+    background-color:#6C757D;
+    transition: .3s all;
+}
+.solutions-widget-bg:hover{
+    background-color: $primary-color;
+}
+.solutions-widget a:hover{
+    color: #000;
+}
+
+#solutions-building .carousel-control-next{
+    right: -29px;
+}
+#solutions-building .carousel-control-prev{
+    left: -28.5px;
+}
+
+#solutions-building .card-header a{
+    color: #000;
+}
+
+#solutions-building .card-header a:focus{
+    color: $primary-color;
+}
+#solutions-building .card-header a[aria-expanded="true"]{
+    color: $primary-color;
+}

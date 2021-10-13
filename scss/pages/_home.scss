@@ -1,0 +1,113 @@
+
+#header-top{
+    background: $top-bar-color;
+}
+
+
+#request-quote .quote-bg{
+    background-color:$primary-color;
+    margin-top: -40px;
+    z-index: 1;
+    position: relative;
+}
+#accordion .accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button{
+    background-color: #fff;
+    font-weight: 700;
+}
+#accordion .accordion-button:not(.collapsed){
+    color: $primary-color;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.fact-item a{
+    color: #333;
+    transition: .3s all;
+}
+
+.fact-item a:hover{
+    color: $primary-color;
+}
+
+
+ .portfolio-overlay{
+    width: 93.5%;
+    height: 0%;
+    background: rgba(0,0,0,0.7);
+    transition: .5s all;
+    overflow: hidden;
+}
+.portfolio-overlay p{
+    font-size: 12px;
+}
+
+.portfolio-hover:hover .portfolio-overlay{
+    width: 93.5%;
+    height: 100%;
+    transition: .5s all;
+}
+
+.portfolio-filter{
+    border-bottom: 4px solid $primary-color;
+    width: 98%!important;
+    margin: 0 auto;
+}
+.portfolio-filter label{
+    display: inline;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+}
+ .filter-active{
+    background-color: $primary-color;
+}
+.slick-dots li.slick-active button::before{
+    color: $primary-color;
+}
+
+.slick-dots li button::before{
+    font-size: 10px;
+}
+.subscribe{
+    background-color: $primary-color;
+}
+
+#newsletter .form-control{
+    border-radius: 0;
+    background: transparent;
+}
+#newsletter .form-control:focus{
+    box-shadow: none;
+    border: 1px solid $primary-color;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+#blog a h5:hover{
+    color: $primary-color;
+    transition: .3s all;
+}
+
+
+#widgets{
+    background-color: #000;
+}
+
+#widgets .vr{
+    color: $primary-color;
+    height: 22px;
+    width: 3px;
+    opacity: 1;
+}
+
+#widgets a:hover{
+    color: $primary-color;
+}
+
+#footer-section .footer-page-link a:hover{
+    color: #fff;
+}
